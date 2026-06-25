@@ -1,0 +1,277 @@
+/* ===========================
+   GLOBAL
+=========================== */
+
+QMainWindow {
+    background-color: #F5FFF8;
+}
+
+QWidget {
+    background-color: #F5FFF8;
+    color: #2F4F4F;
+    font-family: "Segoe UI";
+    font-size: 12px;
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+QListWidget {
+    background-color: #66BB6A;
+    border: none;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    padding: 10px;
+}
+
+QListWidget::item {
+    height: 45px;
+    border-radius: 8px;
+    padding-left: 12px;
+}
+
+QListWidget::item:hover {
+    background: #81C784;
+}
+
+QListWidget::item:selected {
+    background: white;
+    color: #2E7D32;
+    font-weight: bold;
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+QPushButton {
+
+    background-color: #66BB6A;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 8px 18px;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+
+    background-color: #81C784;
+
+}
+
+QPushButton:pressed {
+
+    background-color: #43A047;
+
+}
+
+/* ===========================
+   INPUT
+=========================== */
+
+QLineEdit {
+
+    background: white;
+
+    color: #2F4F4F;
+
+    border: 2px solid #C8E6C9;
+
+    border-radius: 8px;
+
+    padding: 6px;
+
+}
+
+QLineEdit:focus{
+
+    border:2px solid #66BB6A;
+
+}
+
+/* ===========================
+   COMBOBOX
+=========================== */
+
+QComboBox {
+
+    background:white;
+
+    border:2px solid #C8E6C9;
+
+    border-radius:8px;
+
+    padding:6px;
+
+}
+
+QComboBox:hover{
+
+    border:2px solid #66BB6A;
+
+}
+
+/* ===========================
+   SPINBOX
+=========================== */
+
+QSpinBox{
+
+    background:white;
+
+    border:2px solid #C8E6C9;
+
+    border-radius:8px;
+
+    padding:6px;
+
+}
+
+/* ===========================
+   TABLE
+=========================== */
+
+QTableWidget{
+
+    background:white;
+
+    border:none;
+
+    gridline-color:#E8F5E9;
+
+    selection-background-color:#C8E6C9;
+
+    selection-color:black;
+
+}
+
+QHeaderView::section{
+
+    background:#66BB6A;
+
+    color:white;
+
+    border:none;
+
+    padding:8px;
+
+    font-size:13px;
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+   TITLE
+=========================== */
+
+#title{
+
+    color:#2E7D32;
+
+    font-size:30px;
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+   STATUS BAR
+=========================== */
+
+QStatusBar{
+
+    background:#66BB6A;
+
+    color:white;
+
+}
+
+/* ===========================
+   MENU BAR
+=========================== */
+
+QMenuBar{
+
+    background:#66BB6A;
+
+    color:white;
+
+}
+
+QMenuBar::item{
+
+    padding:6px 15px;
+
+}
+
+QMenuBar::item:selected{
+
+    background:#81C784;
+
+}
+
+QMenu{
+
+    background:white;
+
+    border:1px solid #C8E6C9;
+
+}
+
+QMenu::item:selected{
+
+    background:#81C784;
+
+}
+
+/* ===========================
+   DASHBOARD
+=========================== */
+
+#subtitle{
+    color:#666666;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+#dashboardCard{
+
+    background:white;
+
+    border:2px solid #DDEEDD;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    font-size:14px;
+
+    color:#333333;
+
+}
+
+#dashboardCard:hover{
+
+    border:2px solid #66BB6A;
+
+    background:#F9FFF9;
+
+}
+
+#dashboardCard h1{
+
+    color:#2E7D32;
+
+    font-size:34px;
+
+    font-weight:bold;
+
+}
